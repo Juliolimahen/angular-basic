@@ -160,7 +160,7 @@ ng serve
 rodar e abrir o braswer
 
 ````bash
-ng server -o
+ng serve -o
 ````
 
 ## Variáveis e Tipos 
@@ -180,4 +180,9 @@ public todos: any[] = [];
 <button *ngIf="!todo.done">Concluir</button> |
     <button *ngIf="todo.done">Refazer</button> |
 ````
-## Removendo um item 
+
+## Buid 
+
+````bash
+ng build --prod
+````
